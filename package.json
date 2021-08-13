@@ -2,13 +2,19 @@
   "name": "root",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "workspaces": [
-    "shared/**",
-    "apps/**"
+    "packages/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "start": "lerna exec yarn start",
+    "test": "lerna run test --parallel",
+    "boot": "yarn global add lerna && lerna bootstrap",
+    "release": "yarn install && lerna publish && yarn clean"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "typescript": "^4.3.5"
   },
   "dependencies": {}
 }

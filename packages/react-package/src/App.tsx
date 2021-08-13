@@ -2,7 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const name = require('typescript-project');
+
 function App() {
+
+  const variable = name("Hanna", "Baum");
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +24,7 @@ function App() {
           Learn React
         </a>
       </header>
+        <h2>{variable}</h2>
     </div>
   );
 }

@@ -1,7 +1,6 @@
 {
   "packages": [
-    "shared/**",
-    "apps/**"
+    "packages/*"
   ],
   "version": "independent",
   "npmClient": "yarn",
