@@ -1,5 +1,3 @@
-# lerna-tutorial-1
-
 # [Managing Your Typescript Monorepo With Lerna and Codefresh](https://codefresh.io/howtos/lerna-monorepo/)
 
 ## 프로젝트 셋업
